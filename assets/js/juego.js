@@ -74,7 +74,7 @@ const miModulo = (() => {
   const crearCarta = (carta, turno) => {
 
     const imgCarta = document.createElement("img");
-    imgCarta.src = `/assets/cards/${carta}.png`;
+    imgCarta.src = `assets/cards/${carta}.png`;
     imgCarta.classList.add("card");
     divCartasJugadores[turno].append(imgCarta)
   }
